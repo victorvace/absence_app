@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+    	<!-- Drivers de MariaDB org.mariadb.jdbc.Driver -->
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">AccesoADatos</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/faltas?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC&amp;nullNamePatternMatchesAll=true&amp;transformedBitIsBoolean=true</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.default_schema">faltas</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property> <!-- MariaDB53Dialect -->
+        <property name="hibernate.current_session_context_class">thread</property>
+        <property name="hibernate.enable_lazy_load_no_trans">true</property>
+        
+        <mapping resource="domain/Alumno.hbm.xml" />
+        <mapping resource="domain/Ciclo.hbm.xml" />
+        <mapping resource="domain/Curso.hbm.xml" />
+        <mapping resource="domain/Falta.hbm.xml" />
+        <mapping resource="domain/Horario.hbm.xml" />
+        <mapping resource="domain/Matricula.hbm.xml" />
+        <mapping resource="domain/Modulo.hbm.xml" /> 
+        <mapping resource="domain/Usuario.hbm.xml" />
+    </session-factory>
+</hibernate-configuration>

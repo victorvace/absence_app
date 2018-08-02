@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 26-abr-2018 12:02:16 by Hibernate Tools 5.2.10.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="faltas" dynamic-insert="false" dynamic-update="false" mutable="true" name="domain.Curso" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="curso">
+        <id name="idCurso" type="java.lang.Integer">
+            <column name="id_curso"/>
+            <generator class="identity"/>
+        </id>
+        <many-to-one class="domain.Ciclo" embed-xml="true" fetch="select" insert="true" name="ciclo" not-found="exception" optimistic-lock="true" unique="false" update="true">
+            <column name="id_ciclo" not-null="true"/>
+        </many-to-one>
+        <property generated="never" lazy="false" name="nombre" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="nombre" not-null="true"/>
+        </property>
+        <property generated="always" lazy="false" name="alta" optimistic-lock="true" type="timestamp" unique="false">
+            <column length="26" name="alta" not-null="true"/>
+        </property>
+        <property generated="always" lazy="false" name="baja" optimistic-lock="true" type="timestamp" unique="false">
+            <column length="26" name="baja"/>
+        </property>
+    </class>
+</hibernate-mapping>

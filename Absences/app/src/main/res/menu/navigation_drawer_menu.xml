@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_navigation_drawer_cycle"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="Ciclo"
+            android:checked="true"/>
+    </group>
+
+    <item android:title="User options">
+        <menu>
+            <item
+                android:id="@+id/item_navigation_drawer_settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="@string/title_settings" />
+            <item
+                android:id="@+id/item_navigation_drawer_logout"
+                android:icon="@drawable/ic_power_settings_new_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

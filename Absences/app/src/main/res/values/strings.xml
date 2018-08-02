@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Absences</string>
+    <string name="register">Registro</string>
+    <string name="cancel">Cancelar</string>
+    <string name="acept">Aceptar</string>
+    <string name="erase">Borrar</string>
+    <string name="modify">Modificar</string>
+    <string name="login">Login</string>
+    <string name="password">Contraseña</string>
+    <string name="new_password">Nueva contraseña</string>
+    <string name="confirm_password">Confirme contraseña</string>
+    <string name="change_password">Cambiar contraseña</string>
+    <string name="email">e-mail</string>
+    <string name="user">Nombre de usuario</string>
+    <string name="down">Darse de baja</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="phone">Teléfono</string>
+    <string name="dni">DNI</string>
+    <string name="title_cycle">Ciclos</string>
+    <string name="title_settings">Ajustes</string>
+    <string name="ciclos">Ciclos</string>
+    <string name="alumnos">Alumnos</string>
+</resources>
