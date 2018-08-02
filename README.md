@@ -1,6 +1,5 @@
 
-![Diseño y recorrido natural de la app android](https://drive.google.com/file/d/1HZczVFqD0xv7reO4PMGS3f-qcHMcaJWX/view?usp=sharing
- "Diseño y recorrido natural de la app android") # Absence app
+![Diseño y recorrido natural de la app android](absence_app/logo.png "Diseño y recorrido natural de la app android") # Absence app
 
 Este repositorio corresponde al proyecto de fin de curso del grado superior de Desarrollo de Aplicaciones Multiplataforma. Su función es la de poder gestionar faltas de asistencia en un centro educativo, a través de una app Android que se conecta a una API-REST hecha en Java. (APP y Backend para la administración de faltas de asistencia en un centro educativo) 
 
@@ -14,10 +13,8 @@ También se ha utilizado el JDK de android para crear una app cliente para la AP
 
 ##Diseño de interfaces de usuario
 
-![Diseño y recorrido natural de la app android](https://drive.google.com/open?id=1CccOrNHNJPciJck1Dk9-pkES-X0IFz6w
- "Diseño y recorrido natural de la app android")
+![Diseño y recorrido natural de la app android](absence_app/Diseño de interfaces de usuario.png "Diseño y recorrido natural de la app android")
  
 ##Diseño de la base de datos
 
-![Diseño de la base de datos](https://drive.google.com/file/d/1LWiD4hUf21p-pyqm-VNZUClHS9GLVik3/view?usp=sharing
- "Diseño de la base de datos")
+![Diseño de la base de datos](absence_app/BBDD.png "Diseño de la base de datos")
